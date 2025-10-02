@@ -1,0 +1,2 @@
+# Set the default behavior for line endings during checkout, to ensure cross-platform consistency.
+* text=auto eol=lf

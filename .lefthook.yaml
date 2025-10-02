@@ -1,0 +1,23 @@
+pre-commit:
+  commands:
+    lint:format:
+      run: pnpm exec prettier --log-level silent --check {staged_files}
+    lint:code:
+      glob: "**/*.(js|ts)"
+      run: pnpm exec eslint {staged_files}
+    lint:header:
+      run: pnpm exec hr --dry {staged_files}
+    lint:spelling:
+      run: pnpm exec cspell --silent --gitignore --dot {staged_files}
+    lint:packages:
+      run: pnpm dedupe --silent --check
+    lint:knip:
+      run: pnpm exec knip
+    typecheck:
+      run: pnpm exec tsc --noEmit
+    test:
+      run: pnpm test
+commit-msg:
+  commands:
+    check-commit-msg:
+      run: pnpm exec commitlint --verbose --edit $1
