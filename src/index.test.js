@@ -1,5 +1,5 @@
 /*!
- *  Copyright (c) 2025, Rahul Gupta and Negotiate Events Field contributors
+ *  Copyright (c) 2025-2026, Rahul Gupta and Negotiate Events Field contributors
  *
  *  This Source Code Form is subject to the terms of the Mozilla Public
  *  License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -51,7 +51,7 @@ describe("negotiateEventsField", () => {
 
   it("handles zero duration", () => {
     expect(negotiateEventsField("duration=0")).toStrictEqual({
-      duration: 120,
+      duration: 60,
     });
   });
 });

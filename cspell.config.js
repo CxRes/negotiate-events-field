@@ -1,7 +1,7 @@
 export default {
   dictionaries: ["typescript", "node", "en-gb"],
   ignorePaths: [".git", ".*ignore", "*.yaml"],
-  words: ["conneg"],
+  words: ["conneg", "innerlist"],
   ignoreRegExpList: [
     /(Dependencies|dependencies|scripts)": \{.*?\}/gs,
     String.raw`/href\s*=\s*("|')[^"'\s>]*\1/g`,
