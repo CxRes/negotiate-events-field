@@ -24,7 +24,7 @@ Check out the [docs](./docs/) folder for API documentation and code examples.
 
 ## Copyright and License
 
-Copyright (c) 2025, [Rahul Gupta](https://cxres.pages.dev/profile#i) and Negotiate Events Field contributors.
+Copyright (c) 2025-2026, [Rahul Gupta](https://cxres.pages.dev/profile#i) and Negotiate Events Field contributors.
 
 The source code for this program is subject to the terms of the [Mozilla Public License, v. 2.0](./LICENSE). If a copy of the MPL was not distributed with this repository, You can obtain one at <https://mozilla.org/MPL/2.0/>.
 

@@ -1,6 +1,6 @@
 {
   "name": "negotiate-events-field",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Negotiate the events header field as proposed in the Events Query Internet-Draft",
   "keywords": [
     "http",
